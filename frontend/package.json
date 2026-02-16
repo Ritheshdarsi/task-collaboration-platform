@@ -1,0 +1,18 @@
+{
+  "name": "task-frontend",
+  "version": "0.1.0",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.0.0",
+    "@reduxjs/toolkit": "^2.0.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "socket.io-client": "^4.7.2",
+    "axios": "^1.6.0",
+    "react-router-dom": "^6.20.0"
+  },
+  "scripts": { "start": "react-scripts start" },
+  "proxy": "http://localhost:8080"
+}
+
