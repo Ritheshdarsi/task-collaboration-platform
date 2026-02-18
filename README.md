@@ -80,16 +80,27 @@ npm run build
 
 
 ## Project File Structure
+
 task-collaboration-platform/
-├── backend/                    # Spring Boot API
+
+├── backend/  # Spring Boot API
+
 │   ├── src/main/java/com/example/taskcollab/
+
 │   │   └── TaskcollabApplication.java
+
 │   └── pom.xml                # Java 11
+
 ├── frontend/                   # React App
+
 │   ├── src/
+
 │   │   ├── App.js            # Drag-drop logic
+
 │   │   └── App.css           # Glassmorphism styles
+
 │   └── package.json
+
 └── README.md                  # This file!
 
 
