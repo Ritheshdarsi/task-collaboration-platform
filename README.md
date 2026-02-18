@@ -1,7 +1,7 @@
 # 🚀 Task Collaboration Platform (Trello Clone)
 
 
-**Full-stack real-time task management app** built with **React + Spring Boot + MySQL**. **Production-ready interview project (9.6/10)**.
+**Full-stack real-time task management app** built with **React + Spring Boot + MySQL**. **Production-ready project**.
 
 ## ✨ **Live Features** 
 ✅ Drag-drop: To Do ↔ In Progress ↔ Done (60fps smooth animations)
@@ -40,10 +40,37 @@ Backend:  http://localhost:8080/api/health
 ## TechStack
 
 Frontend: React 18 + Native HTML5 Drag-Drop + Glassmorphism CSS
+Frontend: 
+├── React 18 + Hooks (useState)
+├── Native HTML5 Drag-Drop (zero libraries)
+└── Glassmorphism CSS (backdrop-filter blur)
 
-Backend:  Spring Boot 2.7 + MySQL + REST APIs
+Backend: 
+├── Spring Boot 2.7 + REST APIs
+├── MySQL + JPA (auto-setup)
+└── Java 11
 
 Deployment: Docker ready
+
+docker-compose up -d
+
+npm run build
+
+
+
+## Project File Structure
+task-collaboration-platform/
+├── backend/                    # Spring Boot API
+│   ├── src/main/java/com/example/taskcollab/
+│   │   └── TaskcollabApplication.java
+│   └── pom.xml                # Java 11
+├── frontend/                   # React App
+│   ├── src/
+│   │   ├── App.js            # Drag-drop logic
+│   │   └── App.css           # Glassmorphism styles
+│   └── package.json
+└── README.md                  # This file!
+
 
 ## Key Implementation Highlights
 
